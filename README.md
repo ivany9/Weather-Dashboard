@@ -24,21 +24,21 @@
 
 * When the *user* enters a **City** name, and presses the button, the request goes to the *url* of the **OMDb API**.
 
-* with this request we will get the info of *temperature* , *wind speed* ,*humidity* , *icon*, *latitude*, *longitude*.
+* with this request we will get information on *temperature* , *wind speed* ,*humidity* , *icon*, *latitude*, *longitude*.
 
-* with *longitude* and *latidue* we can send another request to the same **OMDb API** but  diferent  *url.*
+* with *longitude* and *latitude* we can send another request to the same **OMDb API** but different  *url.*
 
-* With teh second request we will get **UV Idex**  adn the forecast for the next five days. like *temperature*, *humidity*,*wind speed.*
+* With thh second request we will get **UV Idex**  and the forecast for the next five days showing *temperature*, *humidity*,*wind speed.*
 
-* Using *Moments* we will get the *current* time, and the next *five* days dates.
+* Using *Moments* we will get the *current* time, and the next *five* days date.
 
-* The LocalStorage saves  the name of the *citys* to create the buttons.
+* The LocalStorage saves the name of the *cities* to create the buttons.
 
-* Once we have all the information we will show it in 4 differents  boostrap cards
+* Once we have all the information we will show it in 4 differents boostrap cards
 
-* The First Card have the **Input** and the **Search Button.**
+* The First Card has the **Input** and the **Search Button.**
 
-* The second card have the **current** 
+* The second card has the **current** 
                                         * date  
                                         * icon
                                         * temperature
@@ -46,9 +46,9 @@
                                         * Humidity
                                         * UV Index
 
- * the third card have a list of *Buttons* created with the *LocalStorage* `name of the city data`.
+ * the third card has a list of *Buttons* created with the *LocalStorage* `name of the city data`.
 
- * the fouth card have five **subCArds** each card have 
+ * the fouth card has five **subCArds** each card has 
 
                                           * Date for the `next 5 days`.
                                           * Icon for the `next 5 days`.
@@ -63,6 +63,9 @@
 
 **MOCK-UP
 
+GIF of the functionality:
+
+![Aniweather](https://user-images.githubusercontent.com/83906297/126128995-688f93e2-4289-4bb7-8025-52bef26b2069.gif)
 
 
 
@@ -71,4 +74,3 @@
 
 
 
-The following GIF shows the web applications apperance and functionality:
