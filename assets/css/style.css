@@ -1,0 +1,95 @@
+
+
+    
+.navbar {
+
+  
+  background-color: blue;
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  
+  
+}
+
+.ppal{
+
+
+  position: relative;
+  left: 30%;
+
+
+
+}
+.A {
+  background-color: lightgreen;
+}
+.B {
+  background-color: yellow;
+}
+.C {
+  background-color: orange;
+}
+.D {
+  background-color: red;
+}
+.danger {
+  background-color: orchid;
+}
+
+.uvIndexClass{
+  width: 20%;
+  margin-left: 5px;
+}
+
+.number1{
+
+padding: 10px;
+
+
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white; 
+  border-radius: 15px;
+}
+
+ .uvioutput {
+  background-color: #ff6961;
+  color: white;
+  font-size: 5px;
+  
+  
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+  border-radius: 15px;
+
+
+
+
+
+}
+
+.cola1,.cola2,.colb1,.colb2{
+display: flex;
+align-items: center;
+
+
+
+}
+
+
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  
+  
+ 
+}
+

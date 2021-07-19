@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+       <title>Weather Dashboard</title>
+      </head>
+        <div class="container"  >
+        <nav class="navbar  bg-primary text-white ">
+        <p class="font-weight-bold ppal">Weather Dashboard</p>
+        </nav>
+
+
+    <div class="cont" id="ppalcard">
+      <div class="row number1">
+          <div class="col-3 cola1">
+            <div class="card " style="width: 20rem;">
+              <div id="city-forma" class="card-body d-flex flex-column justify-content-between">
+              <h5 class="card-title">Search for a City:</h5>
+            <input id="inpp" type="text" class="form-control" placeholder="Los Angeles" >
+          <button id="bt1" type="button" class="btn btn-primary ">Search</button>
+          </div>
+        </div>
+          
+          
+          
+        </div>
+        <div class="col-9 cola2">
+          <div class="card" style="width: 60rem;">
+            <div class="card-body" id="cardtop">
+              <h5 class="card-title" id="citydate" ></h5>
+              <img src=" "  id="img1c" alt="...">
+                 <ul class="list-group ">
+                    <li class="list-group-item " id="temp1" > </li>
+                   <li class="list-group-item" id="wind1"></li>
+                  <li class="list-group-item" id="humi1"></li>
+                <li class="list-group-item"   id="uv" ></li> 
+               </ul>
+             </div>
+              <a href="#" class="btn btn-primary bg-secondary text-white">5-Day Forecast</a>
+            </div>
+          </div>
+          
+        
+        </div>
+          </div>
+           <div class="row number2">
+              <div class="col-3 colb1">
+                <div class="card " style="width: 20rem">
+                  <div class="card-body  d-flex flex-column  justify-content-between " id="mainbutton" >
+                   
+                   
+            </div>
+          </div>
+          
+          
+        </div>
+          <div class="col-9 colb2" >
+            <div class="card   bg-primary text-white " id="cards1" style="width: 10rem;">
+              <div class="card-body">
+               <h5 class="card-title" id="time1f"></h5>
+              <img src=" "  id="imgc1" alt="...">
+             <p id="tempc1"></p>
+            <p id="winc1"></p>
+           <p id="humc1"></p>              
+          </div>
+        </div>
+
+
+        <div class="card   bg-primary text-white "   style="width: 10rem;">
+          <div class="card-body">
+           <h5 class="card-title" id="time2f"></h5>
+          <img src=" "  id="imgc2" alt="...">
+         <p id="tempc2"></p>
+        <p id="winc2"></p>
+       <p id="humc2"></p>              
+      </div>
+    </div>
+
+    <div class="card   bg-primary text-white "  style="width: 10rem;">
+      <div class="card-body">
+       <h5 class="card-title" id="time3f"></h5>
+      <img src=" "  id="imgc3" alt="...">
+     <p id="tempc3"></p>
+    <p id="winc3"></p>
+   <p id="humc3"></p>              
+  </div>
+</div>
+
+<div class="card   bg-primary text-white "  style="width: 10rem;">
+  <div class="card-body">
+   <h5 class="card-title" id="time4f"></h5>
+  <img src=" "  id="imgc4" alt="...">
+ <p id="tempc4"></p>
+<p id="winc4"></p>
+<p id="humc4"></p>              
+</div>
+</div>
+
+<div class="card   bg-primary text-white "  style="width: 10rem;">
+  <div class="card-body">
+   <h5 class="card-title" id="time5f"></h5>
+  <img src=" "  id="imgc5" alt="...">
+ <p id="tempc5"></p>
+<p id="winc5"></p>
+<p id="humc5"></p>              
+</div>
+</div>
+                </div>       
+               </div>
+              </div>
+             </div>
+            </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="./assets/js/homepage.js"></script>
+</body>
+
+</html>
