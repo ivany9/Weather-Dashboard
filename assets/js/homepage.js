@@ -288,9 +288,7 @@ var displayctime = function (data,city) {
 
         function render(citys){
              var data=localStorage.getItem("cityname");
-             alert("datos " + data);
-             alert("contador "+ cont);
-            
+             
             //***************************add  7 Buttons in a class *******************************88 
              if(cont<7 && data!="Bali"){
               $(document).ready(function() {
